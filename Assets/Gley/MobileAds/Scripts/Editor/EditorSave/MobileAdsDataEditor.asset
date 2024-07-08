@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   advertiserSettings:
   - advertiser: 20
-    useSDK: 1
+    useSDK: 0
     preprocessorDirective: GLEY_ADMOB
     sdkLink: https://github.com/googleads/googleads-mobile-unity/releases
     directedForChildrenRequired: 1
@@ -25,7 +25,7 @@ MonoBehaviour:
     showConsentPopup: 0
     platformSettings:
     - platform: 0
-      enabled: 1
+      enabled: 0
       appId:
         id: ca-app-pub-3940256099942544~3347511713
         displayName: App ID
@@ -56,9 +56,8 @@ MonoBehaviour:
         required: 1
       testMode: 0
       testDevice: 
-      debugGeography: 0
     - platform: 1
-      enabled: 1
+      enabled: 0
       appId:
         id: ca-app-pub-3940256099942544~3347511713
         displayName: App ID
@@ -89,9 +88,8 @@ MonoBehaviour:
         required: 1
       testMode: 0
       testDevice: 
-      debugGeography: 0
   - advertiser: 30
-    useSDK: 0
+    useSDK: 1
     preprocessorDirective: GLEY_APPLOVIN
     sdkLink: https://dash.applovin.com/documentation/mediation/unity/getting-started/integration
     directedForChildrenRequired: 1
@@ -102,25 +100,25 @@ MonoBehaviour:
     showConsentPopup: 0
     platformSettings:
     - platform: 0
-      enabled: 0
+      enabled: 1
       appId:
-        id: 
+        id: ArdMxTOMzAagq3L8EhwTHlyMVhRMlyfJfVb8ELTSoA9rVIx9psanq8Oy48H3iukzHBTU6eIC_RyHeDp6bsLEO3
         displayName: SDK key
         required: 1
       idBanner:
-        id: 
+        id: a
         displayName: Banner ID
         required: 1
       idMRec:
-        id: 
+        id: a
         displayName: MRec ID
         required: 1
       idInterstitial:
-        id: 
+        id: a
         displayName: Interstitial ID
         required: 1
       idRewarded:
-        id: 
+        id: a
         displayName: Rewarded ID
         required: 1
       idRewardedInterstitial:
@@ -128,32 +126,31 @@ MonoBehaviour:
         displayName: 
         required: 0
       idOpenApp:
-        id: 
+        id: a
         displayName: App Open ID
         required: 1
       testMode: 0
       testDevice: 
-      debugGeography: 0
     - platform: 1
-      enabled: 0
+      enabled: 1
       appId:
-        id: 
+        id: ArdMxTOMzAagq3L8EhwTHlyMVhRMlyfJfVb8ELTSoA9rVIx9psanq8Oy48H3iukzHBTU6eIC_RyHeDp6bsLEO3
         displayName: SDK key
         required: 1
       idBanner:
-        id: 
+        id: aa
         displayName: Banner ID
         required: 1
       idMRec:
-        id: 
+        id: a
         displayName: MRec ID
         required: 1
       idInterstitial:
-        id: 
+        id: a
         displayName: Interstitial ID
         required: 1
       idRewarded:
-        id: 
+        id: a
         displayName: Rewarded ID
         required: 1
       idRewardedInterstitial:
@@ -161,12 +158,11 @@ MonoBehaviour:
         displayName: 
         required: 0
       idOpenApp:
-        id: 
+        id: a
         displayName: App Open ID
         required: 1
       testMode: 0
       testDevice: 
-      debugGeography: 0
   - advertiser: 60
     useSDK: 0
     preprocessorDirective: GLEY_VUNGLE
@@ -210,7 +206,6 @@ MonoBehaviour:
         required: 0
       testMode: 0
       testDevice: 
-      debugGeography: 0
     - platform: 1
       enabled: 0
       appId:
@@ -243,7 +238,6 @@ MonoBehaviour:
         required: 0
       testMode: 0
       testDevice: 
-      debugGeography: 0
   - advertiser: 40
     useSDK: 0
     preprocessorDirective: GLEY_LEVELPLAY
@@ -287,7 +281,6 @@ MonoBehaviour:
         required: 0
       testMode: 0
       testDevice: 
-      debugGeography: 0
     - platform: 1
       enabled: 0
       appId:
@@ -320,7 +313,6 @@ MonoBehaviour:
         required: 0
       testMode: 0
       testDevice: 
-      debugGeography: 0
   - advertiser: 50
     useSDK: 0
     preprocessorDirective: GLEY_UNITYADS
@@ -364,7 +356,6 @@ MonoBehaviour:
         required: 0
       testMode: 0
       testDevice: 
-      debugGeography: 0
     - platform: 1
       enabled: 0
       appId:
@@ -397,12 +388,11 @@ MonoBehaviour:
         required: 0
       testMode: 0
       testDevice: 
-      debugGeography: 0
   debugMode: 0
   usePlaymaker: 0
   useUnityVisualScripting: 0
-  enableATT: 0
+  enableATT: 1
   nativePopupText: We will use your data to provide a better and personalized ad
     experience.
-  selectedAndroidAdvertiser: 20
-  selectediOSAdvertiser: 20
+  selectedAndroidAdvertiser: 30
+  selectediOSAdvertiser: 30

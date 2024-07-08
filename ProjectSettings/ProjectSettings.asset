@@ -828,9 +828,9 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: GLEY_ADMOB;GLEY_PATCH_ADMOB;OPTIMIZERS_DOTS_IMPORTED
+    Android: OPTIMIZERS_DOTS_IMPORTED;GLEY_APPLOVIN
     Windows Store Apps: 
-    iPhone: GLEY_ADMOB;GLEY_PATCH_ADMOB
+    iPhone: GLEY_APPLOVIN;GLEY_ATT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

@@ -928,7 +928,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Instructions:
     m_Instructions:
-    - rid: 8453198280670576948
     - rid: 8453198280670576946
     - rid: 8453198418252660741
   m_TriggerEvent:
@@ -955,33 +954,6 @@ MonoBehaviour:
         m_Breakpoint: 0
         m_IsEnabled: 1
         m_Sign: 1
-    - rid: 8453198280670576948
-      type: {class: InstructionCharacterPlayer, ns: GameCreator.Runtime.VisualScripting,
-        asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_Character:
-          m_Property:
-            rid: 8453198280670576949
-        m_Input:
-          m_Player:
-            rid: 8453198280670576950
-    - rid: 8453198280670576949
-      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 8453198280670576950
-      type: {class: UnitPlayerDirectional, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data:
-        m_IsControllable: 1
-        m_InputMove:
-          m_Input:
-            rid: 8453198280670576952
-    - rid: 8453198280670576952
-      type: {class: InputValueVector2MobileStickPrefab, ns: GameCreator.Runtime.Common,
-        asm: GameCreator.Runtime.Core}
-      data:
-        m_Touchstick: {fileID: 11400000, guid: 5c1903204f398ae429ba26c4f0bdc724, type: 2}
     - rid: 8453198418252660741
       type: {class: InstructionCharacterPlayer, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}

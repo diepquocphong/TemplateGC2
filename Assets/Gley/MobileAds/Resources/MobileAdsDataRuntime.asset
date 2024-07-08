@@ -15,80 +15,78 @@ MonoBehaviour:
   consentCanvas: {fileID: 0}
   consentPopup: {fileID: 0}
   androidAdvertiser:
-    advertiser: 20
+    advertiser: 30
     platformSettings:
       platform: 0
       enabled: 1
       appId:
-        id: ca-app-pub-3940256099942544~3347511713
-        displayName: App ID
+        id: ArdMxTOMzAagq3L8EhwTHlyMVhRMlyfJfVb8ELTSoA9rVIx9psanq8Oy48H3iukzHBTU6eIC_RyHeDp6bsLEO3
+        displayName: SDK key
         required: 1
       idBanner:
-        id: ca-app-pub-3940256099942544/6300978111
+        id: a
         displayName: Banner ID
         required: 1
       idMRec:
-        id: ca-app-pub-3940256099942544/6300978111
+        id: a
         displayName: MRec ID
         required: 1
       idInterstitial:
-        id: ca-app-pub-3940256099942544/1033173712
+        id: a
         displayName: Interstitial ID
         required: 1
       idRewarded:
-        id: 
-        displayName: Rewarded Video ID
+        id: a
+        displayName: Rewarded ID
         required: 1
       idRewardedInterstitial:
         id: 
-        displayName: Rewarded Interstitial ID
-        required: 1
+        displayName: 
+        required: 0
       idOpenApp:
-        id: ca-app-pub-3940256099942544/9257395921
+        id: a
         displayName: App Open ID
         required: 1
       testMode: 0
       testDevice: 
-      debugGeography: 0
     directedForChildren: 0
   iOSAdvertiser:
-    advertiser: 20
+    advertiser: 30
     platformSettings:
       platform: 1
       enabled: 1
       appId:
-        id: ca-app-pub-3940256099942544~3347511713
-        displayName: App ID
+        id: ArdMxTOMzAagq3L8EhwTHlyMVhRMlyfJfVb8ELTSoA9rVIx9psanq8Oy48H3iukzHBTU6eIC_RyHeDp6bsLEO3
+        displayName: SDK key
         required: 1
       idBanner:
-        id: ca-app-pub-3940256099942544/6300978111
+        id: aa
         displayName: Banner ID
         required: 1
       idMRec:
-        id: ca-app-pub-3940256099942544/6300978111
+        id: a
         displayName: MRec ID
         required: 1
       idInterstitial:
-        id: ca-app-pub-3940256099942544/1033173712
+        id: a
         displayName: Interstitial ID
         required: 1
       idRewarded:
-        id: 
-        displayName: Rewarded Video ID
+        id: a
+        displayName: Rewarded ID
         required: 1
       idRewardedInterstitial:
         id: 
-        displayName: Rewarded Interstitial ID
-        required: 1
+        displayName: 
+        required: 0
       idOpenApp:
-        id: ca-app-pub-3940256099942544/9257395921
+        id: a
         displayName: App Open ID
         required: 1
       testMode: 0
       testDevice: 
-      debugGeography: 0
     directedForChildren: 0
   debugMode: 0
-  enableATT: 0
+  enableATT: 1
   nativePopupText: We will use your data to provide a better and personalized ad
     experience.
